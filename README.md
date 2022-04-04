@@ -86,3 +86,4 @@ ggplot(n_women, aes(x=height, y=weight)) +
 #Optional 'Just for fun' TASK: Change the arguments for the geom point and see what happens to the plot
 ggplot(n_women, aes(x=height, y=weight)) + 
   geom_point(shape = 21, colour = "black", fill = "white", size = 5, stroke = 5)
+
